@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="platform/system/tools/hidl" />
+  <remove-project name="system_security"/>
+  <remove-project name="system_bt"/>
+  <remove-project name="system_core"/>
+  <remove-project name="system_sepolicy"/>
+  <project path="device/xiaomi/toco" name="anand206/device_xiaomi_toco" remote="github" revision="descendant11" />
+  <project path="kernel/xiaomi/sm6150" name="vantoman/kernel_xiaomi_sm6150" remote="github" revision="eleven" />
+  <project path="vendor/xiaomi" name="AndroidHQ254/vendor_xiaomi" remote="github" revision="eleven" />
+  <project path="device/xiaomi/sm6150-common" name="dotOS-Devices/device_xiaomi_sm6150-common-toco" remote="github" revision="dot11" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
+  <project path="device/qcom/common" name="PixelExperience-Devices/device_qcom_common" remote="github" revision="eleven" />
+  <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" remote="github" revision="lineage-18.1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
+  <project path="system/bt" name="anand206/descendant_system_bt" remote="github" revision="eleven-staging"/>
+  <project path="system/core" name="anand206/descendant_system_core" remote="github" revision="eleven-staging"/>
+  <project path="system/security" name="anand206/descendant_system_security" remote="github" revision="eleven-staging"/>
+  <project path="system/sepolicy" name="anand206/descendant_system_sepolicy" remote="github" revision="eleven-staging"/>
+</manifest>
